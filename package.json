@@ -1,0 +1,28 @@
+{
+  "name": "pantry-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.5",
+    "@mui/material": "^5.16.5",
+    "dotenv": "^16.4.5",
+    "expo-image-picker": "^15.0.7",
+    "firebase": "^10.12.4",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
