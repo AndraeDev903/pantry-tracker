@@ -2,7 +2,6 @@
 
 import { collection, addDoc, getDocs, getDoc, deleteDoc, doc, updateDoc } from 'firebase/firestore';
 import { db } from '../firebase.js';
-console.log(db)
 import React, { useState, useEffect } from 'react';
 import {
   Container,
